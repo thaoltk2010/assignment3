@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 02</title>
+  </head>
+  <body>
+    <!-- banner -->
+    <div id="banner" style="padding: 50px">
+      <img
+        src="images/banner.jpg"
+        id="imges-banner"
+        width="100%"
+        style="filter: brightness(50%)"
+      />
+      <!--  style="filter: brightness(50%) dùng làm tối hình ảnh theo tỷ lệ 50%-->
+      <h1 class="name">Lê Trần Kim Thảo</h1>
+      <span class="job">Lập trình viên JaVa</span>
+    </div>
+    <!-- nav-bar -->
+    <section id="nav-bar">
+      <nav class="container">
+        <a href="#">
+          <i class="icon-user"></i>
+          Thông tin
+        </a>
+        <a href="#" style="border-right-width: 0">
+          <i class="icon-doc-text-inv"></i>
+          Lý lịch
+        </a>
+        <a style="flex-direction: column" id="avatar">
+          <img src="images/thao.jpg" height="150px" />
+        </a>
+        <a href="#">
+          <i class="icon-mail-alt"></i>
+          Chứng chỉ
+        </a>
+        <a
+          href="#"
+          style="
+            border-right-color: #cccccc;
+            border-right-width: 2px;
+            border-right-style: solid;
+          "
+        >
+          <i class="icon-star-1"></i>
+          Dự Án
+        </a>
+      </nav>
+    </section>
+    <!-- about -->
+    <section id="about" class="bg-grey">
+      <div class="container">
+        <div id="target">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b>Lập trình viên JaVa</b>, có thể vận dụng những kiến thức đã được
+            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+            hoàn thành tốt nhất công việc được giao. Đem những gì học được
+            truyền lại cho các bạn vùng cao.
+          </p>
+        </div>
+        <div id="personal-info" style="margin-top: 20px">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <div class="container" style="display: none">
+            <ul class="mt-40 info">
+              <li><span>Giới tính</span> : Nữ</li>
+              <li><span>Ngày sinh</span> : 20/10/2000</li>
+              <li><span>Điện thoại</span> : (+84) 947192401</li>
+              <li><span>Email</span> : thaoltkfx21948@funix.edu.vn</li>
+              <li><span>Địa chỉ</span> : Tam Kỳ, Quảng Nam, Việt Nam</li>
+              <li>
+                <span>Website</span> :
+                https://www.facebook.com/letrankimthaodhqn
+              </li>
+            </ul>
+            <div id="icon">
+              <i class="icon-twitter"></i>
+              <i class="icon-facebook"></i>
+              <i class="icon-gplus"></i>
+              <i class="icon-linkedin"></i>
+            </div>
+          </div>
+          <div class="container">
+            <form>
+              <input type="email" placeholder="Enter Email" class="email" />
+              <br />
+              <div class="info">Hãy nhập Email để xác thực</div>
+              <div class="error">Hãy nhập Email để xác thực</div>
+              <button type="button" class="btn-submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- job-info -->
+    <section id="job-info">
+      <div class="container">
+        <!-- experience -->
+        <div style="margin-top: 20px" class="grid-item" id="experience">
+          <h1 class="title">Kinh nghiệm</h1>
+          <i class="ic-toolbox"></i>
+          <div class="content">
+            <ul>
+              <li>
+                <h3 class="name">Công ty TNHH sản xuất quà tặng Quang Vũ</h3>
+                <div class="date">
+                  08/2022 -&nbsp
+                  <div
+                    style="
+                      background-color: #199cdb;
+                      border-radius: 5px;
+                      padding-left: 8px;
+                      padding-right: 8px;
+                      color: white;
+                    "
+                  >
+                    Hiện tại
+                  </div>
+                </div>
+                <ul class="list">
+                  <li style="margin: 0">Nhân viên Marketting</li>
+                  <li style="margin: 0">
+                    Xây dựng, phát triển Website, facebook của công ty
+                  </li>
+                  <li style="margin: 0">
+                    Viết content, đi link. Tăng tương tác website vào các mạng
+                    xã hội khác. Sử dụng công cụ google, workprees, canvas...
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="name">
+                  Công ty TNHH dịch vụ xử lý số FPT chi nhánh Tam Kỳ
+                </h3>
+                <div class="date">02/2021 -­ 05/2022</div>
+                <ul class="list">
+                  <li style="margin: 0">Thực tập sinh</li>
+                  <li style="margin: 0">Dự án GITHUB - team ISMS</li>
+                  <li style="margin: 0">
+                    Sử dụng các công cụ: tool của công ty
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- education -->
+        <div style="margin-top: 20px" class="grid-item" id="education">
+          <h1 class="title">Học vấn</h1>
+          <i class="ic-pencil"></i>
+          <div class="content">
+            <ul>
+              <li>
+                <h3 class="name">FUNiX</h3>
+                <div class="date">08/2022 - Hiện tại</div>
+                <ul class="list">
+                  <li style="margin: 0">
+                    Chứng chỉ doanh nghiệp nhánh lập trình Java
+                  </li>
+                  <li style="margin: 0">GPA: chưa có</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="name">Đại học Quảng Nam</h3>
+                <div class="date">08/2018 - 07/2022</div>
+                <ul class="list">
+                  <li style="margin: 0">Cử nhân: Công nghệ thông tin</li>
+                  <li style="margin: 0">GPA: 3.2/4</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="name">Đại học Thái Nguyên</h3>
+                <div class="date">02/2018 -­ 05/2022</div>
+                <ul class="list">
+                  <li style="margin: 0">Cử nhân: Hóa môi trường</li>
+                  <li style="margin: 0">GPA: 3/4</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- activity -->
+        <div style="margin-top: 20px" class="grid-item" id="activity">
+          <h1 class="title">Hoạt động</h1>
+          <i class="ic-toolbox"></i>
+          <div class="content">
+            <ul>
+              <li>
+                <h3 class="name">Thi NCKH Sinh Viên Lần Thứ 6</h3>
+                <div class="date">03/2019 -­ 07/2020</div>
+                <ul class="list">
+                  <li style="margin: 0">Giải A</li>
+                  <li style="margin: 0">
+                    Đề tài: Lập trình phần mềm quản lý thu chi trên điện thoại
+                    di động. Ứng dụng vào quản lý thu chi hằng ngày
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="name">Câu lạc bộ NCKH</h3>
+                <div class="date">09/2018 -­ 05/2022</div>
+                <ul class="list">
+                  <li>Thành viên</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="name">Câu lạc bộ thanh niên tình nguyện</h3>
+                <div class="date">02/2018</div>
+                <ul class="list">
+                  <li style="margin: 0">
+                    Thành viên hỗ trợ các ban tuyên tuyền
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- hobby -->
+        <div style="margin-top: 20px" class="grid-item" id="hobby">
+          <h1 class="title" style="padding-right: 20px">Sở thích</h1>
+          <i
+            class="ic-telescope"
+            style="padding-left: 20px; padding-right: 20px"
+          ></i>
+          <div class="content">
+            <div class="icon">
+              <div class="item">
+                <div class="item-icon"><i class="ic-megaphone"></i></div>
+                <a href="#">Âm nhạc</a>
+              </div>
+              <div class="item">
+                <div class="item-icon"><i class="ic-strategy"></i></div>
+                <a href="#">Cắm trại</a>
+              </div>
+              <div class="item">
+                <div class="item-icon"><i class="ic-hotairballoon"></i></div>
+                <a href="#">FaceBook</a>
+              </div>
+              <div class="item">
+                <div class="item-icon"><i class="ic-basket"></i></div>
+                <a href="#">Nấu ăn</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- language -->
+        <div style="margin-top: 20px" class="grid-item" id="language">
+          <h1 class="title">Ngôn ngữ</h1>
+          <i class="ic-mic"></i>
+          <div class="content">
+            <div class="english">
+              <div>Tiếng anh</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+            <div class="english">
+              <div>Tiếng Nhật</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- skill -->
+        <div style="margin-top: 20px" class="grid-item" id="skill">
+          <h1 class="title">Kỹ năng</h1>
+          <i class="ic-tools-2"></i>
+          <div class="content">
+            <div class="english">
+              <div>HTML/CSS: Fundamenta</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+            <div class="english">
+              <div>Javascript: Intermediate</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+            <div class="english">
+              <div>JaVa: Intermediate</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+            <div class="english">
+              <div>SQL: Intermediate</div>
+              <div class="progress">
+                <span class="item-progress-enable"></span>
+                <span class="item-progress-disable"></span>
+                <span class="item-progress-disable"></span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="view-more">
+              <image src="images/down.png" width="20px"></image>VIEW MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- certificate -->
+    <section id="certificate" class="bg-grey">
+      <div class="container">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="content">
+          <div class="item">
+            <div class="item-left">
+              <img src="images/Cert_DBI.png" width="40%" />
+              <div class="item-content">
+                <div class="title">Chứng chỉ phát triển ứng dụng Web</div>
+                <ul>
+                  <li>Chứng chỉ thuộc chương trình CCDN</li>
+                  <li>GPA: chưa có</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item-right">
+              <img src="images/Cert_DBI.png" width="40%" />
+              <div class="item-content">
+                <div class="title">Chứng chỉ CSDL và giải thuật</div>
+                <ul>
+                  <li>Chứng chỉ thuộc chương trình CCDN</li>
+                  <li>GPA: chưa có</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item" style="border-bottom-width: 0px">
+            <div class="item-left" style="border-right-width: 0px" id="cer-end">
+              <img src="images/Cert_DBI.png" width="40%" />
+              <div class="item-content">
+                <div class="title">
+                  Chứng chỉ lập trình hướng đối tượng JaVa
+                </div>
+                <ul>
+                  <li>Chứng chỉ thuộc chương trình CCDN</li>
+                  <li>GPA: chưa có</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project -->
+    <section id="project">
+      <div class="container">
+        <h1 class="section-title">Dự án</h1>
+        <div class="content">
+          <a class="item" href="digital-cv.html">
+            <img src="images/project_1.png" width="100%" />
+            <div class="title">CV QUẢN LÝ THÔNG TIN CÁ NHÂN</div>
+            <div class="position">
+              <div class="year">2021</div>
+              <div>
+                <i class="icon-user-1"></i>
+                <span>Funix</span>
+              </div>
+              <div class="job">
+                <i class="icon-lamp"></i>
+                <span>Developer</span>
+              </div>
+            </div>
+            <table border="1">
+              <tbody>
+                <tr>
+                  <td class="table-title">Mô tả</td>
+                  <td class="table-content">
+                    Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp. Một số chứng nhận giải thưởng và
+                    học bổng trong học tập.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-title">Nhiệm vụ</td>
+                  <td class="table-content">
+                    - Phát triển, tối ưu code và xử lý lỗi,...
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-title">Công nghệ</td>
+                  <td class="table-content">- HTML, CSS, JS, Bootstrap...</td>
+                </tr>
+              </tbody>
+            </table>
+          </a>
+          <a class="item" href="digital-cv.html">
+            <img src="images/project_2.png" width="100%" />
+            <div class="title">ỨNG DỤNG QUẢN LÝ THỜI KHÓA BIỂU</div>
+            <div class="position">
+              <div class="year">2021</div>
+              <div>
+                <i class="icon-user-1"></i>
+                <span>ĐHQN</span>
+              </div>
+              <div class="job">
+                <i class="icon-lamp"></i>
+                <span>Developer</span>
+              </div>
+            </div>
+            <table border="1">
+              <tbody>
+                <tr>
+                  <td class="table-title">Mô tả</td>
+                  <td class="table-content">
+                    Ứng dụng thời khóa biểu dành cho học sinh THCS. Hỗ trợ giáo
+                    viên sắp xếp thời khóa biểu để không trùng lặp nhưng hợp lý
+                    nhất.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-title">Nhiệm vụ</td>
+                  <td class="table-content">
+                    - Phát triển, tối ưu code và xử lý lỗi và phân tích ứng
+                    dụng,...
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-title">Công nghệ</td>
+                  <td class="table-content">- C#, SQL</td>
+                </tr>
+              </tbody>
+            </table>
+          </a>
+          <a class="item" href="digital-cv.html">
+            <img src="images/project_3.png" width="100%" />
+            <div class="title">TRANG WEB QUẢN LÝ BÁN TOUR DU LỊCH</div>
+            <div class="position">
+              <div class="year">2021</div>
+              <div>
+                <i class="icon-user-1"></i>
+                <span>Funix</span>
+              </div>
+              <div class="job">
+                <i class="icon-lamp"></i>
+                <span>Developer</span>
+              </div>
+            </div>
+            <table border="1">
+              <tbody>
+                <tr>
+                  <td class="table-title">Mô tả</td>
+                  <td class="table-content">
+                    Ứng dụng giúp quản lý các thông tin của các tour du lịch
+                    như: lịch trình, hướng dẫn viên, chi tiết phí, khách sạn ...
+                    Bao gồm các chức năng thêm / sửa / xóa.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-title">Nhiệm vụ</td>
+                  <td class="table-content">- Thiết kế, viết code,...</td>
+                </tr>
+                <tr>
+                  <td class="table-title">Công nghệ</td>
+                  <td class="table-content">- HTML, CSS, JS, PHP.</td>
+                </tr>
+              </tbody>
+            </table>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <ul>
+          <li>
+            <i class="icon-facebook-circled"></i>
+            <span>Facebook</span>
+          </li>
+          <li>
+            <i class="icon-linkedin-circled"></i>
+            <span>Linkedin</span>
+          </li>
+          <li>
+            <i class="icon-github-circled"></i>
+            <span>Github</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="css/JAVASCTIP.js"></script>
+  </body>
+</html>
