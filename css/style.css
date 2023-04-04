@@ -1,0 +1,100 @@
+/* laptop */
+@media only screen and (min-width: 992px){
+    /* boostrap không dùng grid được nên phần layout dùng css thuần */
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; /* chia thành 4 cột */
+        grid-gap: 15px; /* khoảng cách giữa các cột */
+    }
+    .goals{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* gộp 2 cột 1 và 2 lại thành 1 */
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .team{
+        grid-column-start: 3;
+        /* hiển thị content ở cột số 3 */
+        grid-row-start: 1;
+    }
+    .scopes{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        /* gộp 2 cột 1 và 2 lại thành 1 */
+        grid-row-start: 2;
+        /* hiển thị content ở dòng số 2 */
+    }
+    .primary{
+        grid-column-start: 3;
+        /* hiển thị content ở cột số 3 */
+        grid-row-start: 2;
+        /* hiển thị content ở dòng số 2 */
+    }
+    .timeline{
+        grid-column-start: 4;
+        /* hiển thị content ở cột số 4 */
+        grid-row-start: 1;
+        grid-row-end: 3;
+        /* gộp 2 dòng 1 và 2 lại thành 1 */
+    }
+    .icon{
+        width: 50px; 
+        height: 50px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: #8533ff; 
+        border-radius: 100%;
+        color: white;
+    }
+    .icon span{
+        width: 100%; 
+    }
+    i::before{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr; /* chia thành 1 cột */
+        grid-gap: 15px; /* khoảng cách giữa các cột */
+    }
+    /* vị trí dòng hiển thị content */
+    .goals{
+        grid-row-start: 1;
+    }
+    .team{
+        grid-row-start: 3;
+    }
+    .scopes{
+        grid-row-start: 2;
+    }
+    .primary{
+        grid-row-start: 4;
+    }
+    .timeline{
+        grid-row-start: 5;
+    }
+    .icon{
+        width: 50px; 
+        height: 50px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background-color: #8533ff; 
+        border-radius: 100%;
+        color: white;
+    }
+    .icon span{
+        width: 100%; 
+    }
+    i::before{
+        font-size: 30px;
+    }
+}
+/* chỉnh lại border */
+.border-dashed{
+    border-bottom-style: dashed !important;
+}
